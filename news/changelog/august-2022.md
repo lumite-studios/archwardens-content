@@ -1,0 +1,29 @@
+---
+title: 'Changelog: August 2022'
+category: 'changelog'
+date: '2022-09-01'
+draft: false
+---
+
+The very first **Archwardens** changelog! The build has been going steadily for about a month and a half with primary work being done on authentication, settings, forums, and the news.
+
+---
+
+## Authentication
+It is possible for users to register, login, and logout of their account. Fetching the authenticated user is also setup. Still got to add in activate account, forgot password, and reset password functionality.
+
+## Settings
+A user can change their login details, minor profile settings, their forum signature, and even change which dropdowns are displayed in the topbar.
+
+## Forums
+The majority of the forums has been built: listing categories and sub categories; showing the latest, newest and oldest posts; searching by discussion title; creating a new discussion; creating a reply to a discussion; linking directly to a post; quoting a post; locking, and stickying for moderators... Yet there is still more to do, such as editing and tagging.
+
+## News
+Initially, news posts were built to be fetched from the external API, but this has since been changed to use markdown files fetched using a content package. This way, like locales, they can be published in their own git repositiory and updated as needed.
+
+---
+
+# September Todo
+- Edit forum post.
+- Delete forum post (moderators).
+- Build user profiles.
