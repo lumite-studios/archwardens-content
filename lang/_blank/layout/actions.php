@@ -7,6 +7,7 @@ return [
     'Delete :resource' => '',
     'Edit' => '',
     'Edit :resource' => '',
+    'Join' => '',
     'Quote' => '',
     'Restore' => '',
     'Submit' => '',

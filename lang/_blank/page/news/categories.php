@@ -5,7 +5,6 @@ return [
         'community' => '',
         'event' => '',
         'development' => '',
-        'changelog' => '',
         'other' => '',
     ]
 ];

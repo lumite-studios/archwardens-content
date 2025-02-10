@@ -1,6 +1,7 @@
 <?php
 return [
-    // navigation
+    // guest navigation
+    // auth navigation
     'dashboard' => '',
     'haven' => '',
         'territory' => '',
